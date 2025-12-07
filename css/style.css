@@ -3,31 +3,3 @@ h1 {
   color: blue;
 }
 
-body {
-  font-family: system-ui, Arial, sans-serif;
-  margin: 0;
-  padding: 24px;
-}
-
-header {
-  margin-bottom: 24px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #ddd;
-}
-
-main section {
-  padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-width: 520px;
-}
-
-button {
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-#count-display {
-  margin-left: 12px;
-  font-size: 1.2rem;
-}
