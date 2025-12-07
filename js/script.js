@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector("#count-btn");
   const display = document.querySelector("#count-display");
 
+  if (!btn || !display) return;
+
   let count = 0;
 
   btn.addEventListener("click", () => {
@@ -15,5 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 if (typeof module !== "undefined") {
-  module.exports = { addNumbers };
+  module.exports = {
+    addNumbers
+  };
 }
